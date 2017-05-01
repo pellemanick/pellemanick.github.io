@@ -1,0 +1,129 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+html { 
+	background: #111111;
+	color: White;	
+}
+
+.profile {
+	background: #111111;
+	height: 60px;
+	padding: 10px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: auto;
+}
+
+#profile-picture img {
+	float: left;
+}
+
+#profile-name {
+	padding: 20px;
+	float: left;
+}
+
+#profile-social {
+	padding: 15px;
+	float: left;
+}
+
+#headertext {
+	position: relative;
+	top: 55%;
+	transform: translateY(-50%);
+	text-align: center; 
+}
+#header-filter {
+	background: rgba(66,42,19,0.60);
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.header {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-size: cover; 
+	height: 100vh;
+}
+#gallery {
+	width: 100%;
+	height: auto;
+}
+#gallery img {
+    width: 20%;
+	height: auto;
+}
+#about {
+	padding: 30px;
+	float: left;
+}
+#about img {
+	float: left;
+	padding-right: 30px;
+	display: inline;
+}
+.footer {
+	font-size: 80%;
+	text-align: center;
+	padding: 15px;
+}
+
+/* Profile & Header Above */
+
+h1 {
+	font-family: "Tangerine", cursive;
+	font-size: 600%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+.profile li a {
+	padding: 0px;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+p, h4 {
+	margin: 10px;
+}
+
+img {
+	line-height: 0px;
+	vertical-align: top;
+}
+td {
+	padding: 15px;
+}
+@media only screen and (max-width: 480px) {
+    .header {
+        visibility: hidden;
+        height: 60px;
+    }
+#gallery img {
+    width: 50%;
+	height: auto;
+}
+#about img {
+	width: 150px;
+}
